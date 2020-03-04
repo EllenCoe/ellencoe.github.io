@@ -44,10 +44,11 @@ body {
   font-family: "Allerta";
   margin: 1rem;
   display: block;
+  text-decoration: none;
 }
 
 .navbar-items a:hover {
-  color: #fdef51;
+  color: #fd89b2;
 }
 
 /*Main*/
@@ -64,6 +65,7 @@ body {
   padding: 2rem;
   display: flex;
   align-items: center;
+  height: 60vh;
 }
 
 .banner-title .title {
@@ -73,6 +75,7 @@ body {
   font-size: 3rem;
   margin: 0rem;
 }
+
 .banner-title .subtitle {
   font-family: "BenchNine";
   color: white;
@@ -132,10 +135,24 @@ body {
   z-index: 1;
   height: 50%;
   width: 50%;
-  padding: 0 3rem;
+  padding-left: 25%;
   margin-top: -7rem;
   display: flex;
   align-items: center;
+}
+
+/*About*/
+.section-title {
+  font-family: "BenchNine";
+  font-size: 2.5rem;
+  text-align: center;
+  color: #fd89b2;
+  margin-bottom: 0;
+}
+.line {
+  width: 30px;
+  border: 5px solid #fd89b2;
+  border-radius: 5px;
 }
 /* Colors */
 .color-blue {
